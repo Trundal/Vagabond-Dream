@@ -1,0 +1,168 @@
+body {
+	font-family: "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	font-size: 26px;
+	padding-top: 25px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fefefe;
+	opacity: .7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+.jumbotron {
+	background-image: url('../images/Trees.svg');
+	background-color: #333;
+	background-position-x: center;
+	background-position-y: center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	border-top: 4px solid lightgreen;
+	border-color: green;
+	margin-top: -65px;
+	margin-bottom: 0px;
+	border-bottom: 4px solid #333;
+}
+
+.jumbotron h1 {
+	font-family: "Helvetica neue", serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 50px;
+	color: #eee;
+	text-shadow: 1px 1px 4px #222;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-transform: uppercase;
+}
+
+.highlight {
+	color: lightgreen;
+}
+
+#bottom-section .col-sm-4 {
+	min-height: 300px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 10%;
+}
+
+#bottom-section .col-sm-4 p {
+	font-family: "Helvetica neue", serif;
+	color: #eee;
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	text-shadow: 1px 1px 6px #222;
+}
+
+#byfw {
+	background-image: url(../images/Trees.svg);
+	background-color: #e74c3c;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+#baw {
+	background-image: url(../images/Trees.svg);
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-color: #f39c12;
+}
+#oml {
+	background-image: url(../images/Trees.svg);
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	background-color: #f1c40f;
+	}
+
+#bottom-section .col-sm-4 .btn-success {
+	background-color: #27ae60;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#bottom-section .col-sm-4:hover {
+	opacity: .9;
+}
+
+footer {
+	background-color: #333;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: #fefefe;
+}
+
+footer a {
+	color: #ccc;
+}
+
+.right-align {
+	text-align: right;
+}
+
+/* responsive design */
+
+@media (max-width: 768px) {
+
+#bottom-section .col-sm-4 {
+	min-height: 300px;
+	padding-top: 120px;
+	padding-bottom: 5px;
+}
+
+.jumbotron h1 {
+	font-size: 25px;
+}
+
+.navbar-brand {
+	width: 50%;
+}
+
+.navbar-brand img {
+	width: 220px;
+}
+
+.navbar-inverse .navbar-brand {
+	border: none;
+}
+
+.jumbotron {
+	margin-top: -186px;
+	padding-top: 150px;
+	padding-bottom: 10px;
+}
+}
+
+

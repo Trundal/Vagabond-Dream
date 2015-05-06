@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="901px" height="519px" viewBox="0 0 901 519" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Colour Light Rays</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-69.000000, 0.000000)">
+            <g id="Colour-Light-Rays" sketch:type="MSLayerGroup" transform="translate(69.000000, 0.000000)">
+                <path d="M749.712553,0 L708.481171,0 L762.358289,183.450909 L749.712553,0 M840.093579,0 L762.457842,0 L796.337645,299.146909 L860.538882,517.748 L900.898539,517.662727 L840.093579,0" id="Fill-1" opacity="0.5" fill="#8F8C8B" sketch:type="MSShapeGroup"></path>
+                <path d="M762.358289,183.450909 L785.403447,517.748 L821.094342,517.748 L796.337645,299.146909 L762.358289,183.450909" id="Fill-2" opacity="0.6" fill="#B8D688" sketch:type="MSShapeGroup"></path>
+                <path d="M762.457842,0 L749.712553,0 L762.358289,183.450909 L796.337645,299.146909 L762.457842,0" id="Fill-3" opacity="0.6" fill="#8DA86A" sketch:type="MSShapeGroup"></path>
+                <path d="M623.848,0 L577.068389,0 L481,517.748 L577.068389,517.748 L623.848,0" id="Imported-Layers" fill-opacity="0.5" fill="#D6E7B6" sketch:type="MSShapeGroup"></path>
+                <path d="M71.9762033,0 L46.3418049,0 L0,518.747514 L155.83335,518.747514 L71.9762033,0" id="Imported-Layers" opacity="0.5" fill="#7A7878" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

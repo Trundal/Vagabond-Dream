@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vagabond Dream | The Homepage</title>
+
+    <!-- Include Font-Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Include Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/scribicon.css" rel="stylesheet">
+
+  </head>
+  
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="150">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+         <a class="navbar-brand" href="#top-main"><strong>Vagabond</strong>Dream</a>
+        </div>
+      </div>
+    </nav>
+
+    <div id="portfolio" class="portfolio-main">
+
+      <div class="container">
+        <div class="row">
+
+          <div id="portfolio-column" class="col-sm-6">
+          <div id="dukiboo" type="button" class="portfolio-block" data-toggle="modal" data-target="#myVideoModal">
+            <div class="image-block"><img src="images/Scribicon-Edit.jpg"></div>
+              <div class="description">
+                <h4>Scribicon</h4>
+                <p>Home Assignment - Video Editing</p>
+                <span class="right-arrow"><i class="fa fa-play-circle-o fa-3x"></i></span>
+                <p><a href="https://www.dropbox.com/s/a099gltp0z33loa/Scribicon-Sample.2.mp4?dl=0">ORIGINAL - on Dropbox.</a>
+                <br></p>
+              </div>
+          </div>
+          </div>
+
+          <div id="portfolio-column" class="col-sm-6">
+          <div id="brisk" type="button" class="portfolio-block" data-toggle="modal" data-target="#myAnimationModal">
+            <div class="image-block"><img src="images/Scribicon-Animation-still.jpg"></div>
+              <div class="description">
+                <h4>Scribicon</h4>
+                <p>Home Assignment - Animation</p>
+                <span class="right-arrow"><i class="fa fa-play-circle-o fa-3x"></i></span>
+              <p><a href="https://www.dropbox.com/s/8qfqk49qekxvo3d/Scribicon%20Animation.mp4?dl=0">ORIGINAL - on Dropbox.</a>
+                <br></p>
+  
+            </div>
+          </div>
+          </div>
+
+      </div>
+      </div>
+      </div>
+
+
+    <footer>
+      <div class="container">
+        <div class="col-sm-7">
+          <p>Made in Berlin with <i class="fa fa-heart"></i> | &#169; 2015 vagabond dream UG</p>
+          <p>Sitz der Gesellschaft: Berlin<br>
+            Amtsgericht Charlottenburg<br>
+            HRB 149 705 B<br>
+            USt.ID.: DE 290 064 064<br>
+            <i class="fa fa-phone-square"></i> +49 (0)157 5318 4311</p>
+        </div>
+        <div class="col-sm-5 right-align">
+          <a href="mailto:korey@vagabonddream.com"><span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+          </span></a>
+          <a href="https://www.linkedin.com/pub/korey-powell/6/5a8/a8a"><span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span></a>
+          <a href="https://www.xing.com/profile/Korey_Powell?sc_o=mxb_p"><span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-xing fa-stack-1x fa-inverse"></i>
+          </span></a>
+          <a href="https://github.com/Trundal"><span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-git fa-stack-1x fa-inverse"></i>
+          </span></a>
+          </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script> 
+    $(function(){
+      $("#video-edit").load("scribicon/video-edit.html");
+      $("#animation").load("scribicon/animation.html");
+    });
+    </script> 
+
+    <!-- Modal Pages -->
+    <div class="modal fade" id="myVideoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div id="video-edit"></div>
+    </div> 
+
+    <div class="modal fade" id="myAnimationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div id="animation"></div>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,280 @@
+body {
+	font-family: "Helvetica neue", serif;
+	font-size: 14px;
+}
+
+.navbar {
+	background-color: white;
+	border-bottom: 1px solid black;
+	border-radius: 0px;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+	opacity: .7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 0px;
+}
+
+.jumbotron {
+	background-image: url('../images/Trees.svg');
+	background-attachment: fixed;
+	background-color: #58585B;
+	background-position-x: center;
+	background-position-y: center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+	font-family: "Helvetica neue", serif;
+	font-weight: 100;
+	text-align: center;
+	font-size: 26px;
+	color: #eee;
+	padding-top: 20px;
+	padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.jumbotron img {
+	padding-top: 100px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+#mid-section .col-sm-4 {
+	min-height: 300px;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+#mid-section .col-sm-4 p {
+	font-family: "Helvetica neue", serif;
+	color: #8CC63E;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+}
+
+#mid-section .col-sm-4 h2 {
+	font-family: "Helvetica neue", serif;
+	color: #8CC63E;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#mid-section .fa {
+	border: 4px solid #8CC63E;
+	border-radius: 100%;
+	color: #8CC63E;
+}
+
+#mid-section .fa-book {
+	padding: 12px 16px;
+}
+
+#mid-section .fa-comment {
+	padding: 12px 14px;
+
+}
+
+#mid-section .fa-users {
+	padding: 12px;
+}
+
+
+#mid-section .col-sm-4 .btn-success {
+	background-color: #27ae60;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#mid-section .col-sm-4:hover {
+	opacity: .9;
+}
+
+#portfolio-title {
+	margin-left: 10%;
+	margin-top: 40px;
+}
+
+#portfolio-title h1 {
+	font-family: "Helvetica neue", serif;
+	font-size: 60px;
+	font-weight: 600;
+	color: #58585B;
+	margin-bottom: -10px;
+}
+
+.portfolio-main {
+	background-image: url(../images/Trees.svg);
+	background-attachment: fixed;
+	background-color: #58585B;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#main-section .col-sm-4 {
+	min-height: 200px;
+	margin: 2% 1.5%;
+	border-radius: 5px;
+	width: 30%;
+}
+
+#design-1 {
+	background-image: url(../images/Trees.svg);
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-color: orange;
+	border: 2px solid black;
+}
+
+#about-title {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 60px;
+	background-color: #8CC63E;
+
+}
+
+#about-title h1{
+	font-family: "Helvetica neue", serif;
+	font-size: 60px;
+	font-weight: 600;
+	color: white;
+	margin-bottom: -10px;
+	padding-left: 10%;
+
+}
+
+#about-us {
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+#about-korey {
+	padding-left: 10%;
+}
+
+#about-korey h2{
+	font-family: "Helvetica neue", serif;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+#about-nelle {
+	padding-right: 10%;
+	text-align: right;
+}
+
+#about-nelle h2{
+	font-family: "Helvetica neue", serif;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+#korey-photo img{
+	width: 100%;
+}
+
+#nelle-photo img{
+	width: 100%;
+}
+
+
+footer {
+	background-color: #8CC63E;
+	padding-top: 25px;
+	padding-bottom: 100px;
+	font-weight: 200;
+	color: #fefefe;
+}
+
+footer a {
+	color: #ccc;
+}
+
+.right-align {
+	text-align: right;
+}
+
+/* responsive design */
+@media (max-width: 1200px) {
+
+#main-section .col-sm-4 {
+	min-height: 200px;
+	margin: 2% 5%;
+	border-radius: 5px;
+	width: 40%;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+#mid-section .col-sm-4 {
+	min-height: 300px;
+	padding-top: 120px;
+	padding-bottom: 5px;
+}
+
+.jumbotron h1 {
+	font-size: 25px;
+	padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar-brand {
+	width: 50%;
+}
+
+.navbar-inverse .navbar-brand {
+	border: none;
+}
+
+.jumbotron {
+	margin-top: -125px;
+	padding-top: 150px;
+	padding-bottom: 10px;
+}
+
+.jumbotron img {
+	padding-top: 100px;
+	width: 98%;
+	margin-left: 1%;
+}
+
+#main-section .col-sm-4 {
+	min-height: 200px;
+	margin: 5% 26%;
+	border-radius: 5px;
+	width: 51%;
+}
+}
+
+
